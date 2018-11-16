@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* layout*/
+.wrap-fluid{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix{
+    clear: both;
+}
+/*header*/
+.header-manu{
+    background-color: #00CC99;
+}
+nav h1{
+    float: left;
+    color:#fff;
+    padding:20px;
+}
+nav .topmanu{
+    float: right;
+}
+nav .topmanu li{
+    float:left;
+    margin-right: 30px;
+    padding: 20px;
+}
+.topmanu li:hover{
+    background-color: #fff;
+    color: #00CC99;
+}
+.topmanu a{
+    text-decoration: none;
+    color:gray;
+}
+.topmanu .active a{
+    color:#fff;
+}
+.topmanu .active{
+    background-color: darkgreen;
+}
+nav .topmanu li:hover{
+    color:#fff;
+    background-color: darkgreen;
+}
+/* footer */
+footer{
+    background-color: darkgrey;
+    color:#fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+.footer-left{
+    float:left;
+}
+.footer-right{
+    float: right;
+}
+.footer-right i{
+    color:#fff;
+}
+.footer-right i:hover{
+    color:#00CC99;
+}
+.footer-right a{
+    margin-right:10px;
+}
+
+/* content-menu */
+.content-menu{
+    margin: 20px 0;
+}
+.content-menu li{
+    display: inline;
+}
+.content-menu li a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #00CC99;
+}
+/* content */
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 784px;
+    float: left;
+}
+.content h1{
+    font-size: 40px;
+    color: #00CC99;
+    margin-bottom: 12px;
+}
+.usermanu{
+    margin: 10px 0;
+}
+.event{
+    color:#00CC99;
+}
+.name{
+    margin-right: 5px;
+}
+.event-tags{
+    margin-left:5px;
+}
+.content-tags{
+    width: 336px;
+    margin-top:35px;
+    float:right;
+}
+.content-tags h3{
+    text-align: center;
+    font-size:30px;
+    margin: 10px 0;
+}
+.content-tags a{
+    text-decoration:none;
+    color:#fff;
+}
+.btn-success{
+    background-color: #00CC99;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.btn-success:hover{
+    background-color: #006400;
+}
+.content .content-p {
+    line-height: 22px;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.content h2{
+    font-size: 28px;
+    color:gray;
+    margin-bottom: 10px;
+}
+.content ul{
+    list-style: disc;
+    text-indent: 20px;
+    line-height: 22px;
+    margin-left: 63px;
+}
+.content ul li{
+    margin-bottom: 10px;
+}
+.content-img{
+    width: 804px;
+    height: auto;
+}
+.message{
+    width: 804px;
+    border: 1px solid #CED4DA;
+}
+.message-img{
+    float: left;
+}
+.message-img img{
+    border-radius: 10px;
+    width: 100px;
+}
+.message-body{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.message-form{
+    float: left;
+    margin-left: 20px;
+}
+.message-name{
+    display: block;
+    margin-bottom: 10px;
+    color: #00CC99;
+}
+#message-cont{
+    display: block;
+    width: 640px;
+    height: 88px;
+    border-radius: 5px;
+    border:1px solid #CED4DA;
+    text-align: center;
+}
+.btn-message{
+    width: 100%;
+    height: 40px;
+    margin-top:10px;
+    background-color: #f8f9fa;
+    border:0;
+    border-radius: 5px;
+}
+.btn-message:hover{
+    background-color: #CED4DA;
+    cursor:pointer;
+}
+.message-title{
+    font-size:20px;
+    background-color: #CED4DA;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.message-form p{
+    width: 644px;
+    line-height: 25px;
+}
